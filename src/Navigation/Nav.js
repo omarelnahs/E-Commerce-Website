@@ -8,6 +8,7 @@ function Nav() {
   return (
     <nav>
       <div className="nav-container">
+        
         <input
           type="text"
           placeholder="Enter Your Search shoes"

@@ -1,8 +1,25 @@
-.recommended-flex{
+.recommended{
     display: flex;
-    margin-left: 20rem;
+    flex-direction: column;
+    margin-left:20rem;
+    padding:20px
 }
-.recommended-title{
-    margin:20px 0 20px 20rem;
-    font-size: 20px;
+@media (max-width:767px) {
+    .recommended{
+        margin-left: 0px;
+    }
+}
+.btns{
+    padding: 10px 20px;
+    margin-right: 6px;
+    background: transparent;
+    border: none;
+    border: .6px solid #ccc;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color:rgb(97,97,97);
+    cursor: pointer;
 }
