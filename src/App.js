@@ -53,7 +53,7 @@ const App = () => {
             )
         }
 
-        return filteredProducts.map(({img, title, star, reviews,prevPrice})=>
+        return filteredProducts.map(({img, title, star, reviews,prevPrice, newPrice})=>
             <Card 
                 key={Math.random()} 
                 img={img}
@@ -66,10 +66,11 @@ const App = () => {
         )
     }
 
+    const result = filteredData(products, selectedCategory, query)
 
     return (
         <>
-            <Sidebar />
+            <Sidebar handleChange={handleChange} />
             <Navigation />
             <Recommended />
             <Products />
