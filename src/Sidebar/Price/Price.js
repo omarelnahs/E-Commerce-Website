@@ -2,7 +2,9 @@ import './Price.css'
 
 function Price() {
     return (
-        <div>Price</div>
+        <div>
+            
+        </div>
     )
 }
 export default Price
