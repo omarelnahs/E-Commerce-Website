@@ -4,7 +4,7 @@ import Price from "./Price/Price"
 import Colors from "./Colors/Colors"
 
 function Sidebar({handleChange}) {
-
+    console.log(handleChange)
     return (
         <>
             <section className="sidebar">
